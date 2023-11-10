@@ -1,0 +1,82 @@
+.btn_kontak{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.nav-linkk{
+    font-size: 16px;
+}
+.nav-linkk a{
+    color: black;
+    text-decoration: none;
+}
+.nav-linkk :hover{
+    color: orange;
+}
+.submit-contact {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin: 20px;
+    width: 30%;
+    margin-left: 250px;
+}
+input{
+      padding: 20px;
+      border: none;
+      background-color: rgb(219, 219, 219);
+      border-radius: 10px;
+      font-family: Poppins, sans-serif;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin: 20px;
+    width: 30%;
+    margin-left: 250px;
+}
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card img {
+    width: 360px;
+    margin: auto;
+  }
+  .card p {
+    margin: 30px 0;
+    text-align: justify;
+    width: 300px;
+  }
+  .card button {
+    margin-top: 20px;
+    width: 75px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: medium;
+  }
+  .icons img {
+    width: 50px;
+  }
+  

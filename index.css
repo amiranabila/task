@@ -18,10 +18,7 @@
 .nav-linkk :hover{
     color: orange;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .about{
     width: 1000px;
 }
