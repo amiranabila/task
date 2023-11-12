@@ -1,0 +1,42 @@
+.nav-linkk{
+    font-size: 16px;
+}
+.nav-linkk a{
+    color: black;
+    text-decoration: none;
+}
+.nav-linkk :hover{
+    color: orange;
+}
+.btn_kontak{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.content {
+    width: 1000px;
+    margin: 50px auto;
+  }
+  .kontenAtas {
+    display: flex;
+    gap: 100px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .tech {
+    display: flex;
+    gap: 20px;
+  }
+  .tech ul li {
+    list-style: none;
+  }
+  .kontenBawah {
+    text-align: justify;
+    font-size: 24px;
+  }
+  
