@@ -98,8 +98,9 @@ function renderProject() {
   document.getElementById("cards").innerHTML = "";
   for (let index = 0; index < dataProject.length; index++) {
     document.getElementById("cards").innerHTML += `<div class="card">
+    
     <img src=${dataProject[index].file} alt="" />
-    <h3>${dataProject[index].nama_project}</h3>
+    <a href = "detail.html"><h3>${dataProject[index].nama_project}</h3>
     <h5>${dataProject[index].tanggal_mulai} | ${
       dataProject[index].tanggal_selesai
     } | Posting : ${getDistanceTime(dataProject[index].postAt)}</h5>
