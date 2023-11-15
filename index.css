@@ -19,6 +19,52 @@
     color: orange;
 }
 
+
 .about{
     width: 1000px;
+}
+.ham-nav-container{
+    font-size: 20px;
+    display: none;
+    flex-direction: column;
+}
+.ham-nav-container a{
+    background-color: #9a9a9a;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px;
+}
+.ham-nav-container .active{
+    background-color: black;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row; 
+    border: solid white;
+     background-color: white; 
+     width: 600px;
+     margin: 20px auto;
+     padding: 20px 20px;
+     border-radius: 5px;
+}
+
+#toggle{
+    display: none;
+}
+@media only screen and (max-width : 600px){
+    .profile-container{
+        flex-direction: column;
+    }
+    #toggle{
+        display: flex;
+    }
+    .nav-linkk, .btn_kontak{
+        display: none;
+    }
+    .ham-nav-container{
+        display: none;
+    }      
 }

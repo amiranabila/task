@@ -44,18 +44,19 @@ button{
 }
   .cards {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+   
   }
   .card {
-    width: 400px;
+    width: 300px;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
   .card img {
-    width: 360px;
+    width: 260px;
     margin: auto;
   }
   .card p {
@@ -64,7 +65,7 @@ button{
     width: 300px;
   }
   .card button {
-    margin-top: 20px;
+    margin-left: auto;
     width: 75px;
     background-color: black;
     padding: 5px;
@@ -79,4 +80,58 @@ button{
   .icons img {
     width: 50px;
   }
+  .myproject-container{
+    display: flex;
+    justify-content: center;
+    border: solid white;
+    background-color: white; 
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  .ham-nav-container{
+    font-size: 20px;
+    display: none;
+    flex-direction: column;
+}
+.ham-nav-container a{
+    background-color: #9a9a9a;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding: 10px;
+}
+.ham-nav-container .active{
+    background-color: black;
+}
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
   
+  }
+  #toggle{
+    display: none;
+}
+  @media only screen and (max-width : 600px){
+    .myproject-container{
+        flex-direction: column;
+    }
+    .card-container{
+      flex-direction: column;
+      
+    }
+    #toggle{
+      display: flex;
+  }
+  .nav-linkk, .btn_kontak{
+      display: none;
+  }
+  .ham-nav-container{
+    display: none;
+}   
+    
+}

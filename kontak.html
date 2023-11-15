@@ -1,7 +1,9 @@
 <html>
     <head>
         <title>contact</title>
+        <meta name="viewport" content="width-device-width, initial scale=1">
         <link rel="stylesheet" href="kontak.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     </head>
     <body style="background-color:rgb(218, 218, 219);">
@@ -10,17 +12,24 @@
                 <ul style="display: flex; list-style-type: none; gap: 30px; ">
                     <li><img src="img/dumbways.png" alt="dumbways" style="height: 20px;"></li>
                     <li class="nav-linkk"><a href="index.html">Home</a></li>
-                    <li class="nav-linkk" style="display: flex;"><a href="my_project.html">My Project</a></li>
+                    <li class="nav-linkk"><a href="my_project.html">My Project</a></li>
 
                 </ul>
                 <div style="display: flex; width: 80%; justify-content: end; align-items: center;">
                     <a href="kontak.html" class="btn_kontak" >Contact me</a>
                 </div>
+                <i class="fa-solid fa-bars" style="cursor: pointer;" id="toggle" onclick="openHamburger()"></i>
 
             </div>
         </nav>
+        <div class="ham-nav-container" id="ham-nav-container">
+            <a href="index.html">Home</a>
+            <a href="my_project.html" >My Project</a>
+            <a href="kontak.html" class="active">Contact Me</a>
 
-        <div style="display: flex; justify-content: center;">
+        </div>
+
+        <div class="kontak-container">
             <form style="display: flex; flex-direction: column;">
 
              <h1>GET IN TOUCH</h1>
@@ -48,5 +57,6 @@
 
         </div>
         <script src="contact.js"></script>
+        <script src="nav.js"></script>
     </body>
 </html>
