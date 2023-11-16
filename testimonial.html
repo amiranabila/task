@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>contact</title>
+        <title>Task day 2</title>
         <meta name="viewport" content="width-device-width, initial scale=1">
-        <link rel="stylesheet" href="kontak.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="testimonial.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     </head>
     <body style="background-color:rgb(218, 218, 219);">
         <nav style="background-color:  #f4f3f3; height: 50px;">
@@ -27,39 +27,22 @@
         <div class="ham-nav-container" id="ham-nav-container">
             <a href="index.html">Home</a>
             <a href="my_project.html" >My Project</a>
-            <a href="testimonial.html" >Testimonial</a>
-            <a href="kontak.html" class="active">Contact Me</a>
-
+            <a href="testimonial.html" class="active" >Testimonial</a>
+            <a href="kontak.html">Contact Me</a>
         </div>
 
-        <div class="kontak-container">
-            <form style="display: flex; flex-direction: column;">
-
-             <h1>GET IN TOUCH</h1>
-
-            <label >Name</label>
-            <input type="text" id="inputName" >
-            <label >Email</label>
-            <input type="text" id="inputEmail">
-            <label >Phone Number</label>
-            <input type="text" id="inputPhone">
-            <label >Subject</label>
-            <select id="inputSubject">
-                <option ></option>
-                <option >Frontend</option>
-                <option >Backend</option>
-                <option >Fullstack</option>
-                
-            </select>
-            <label >Your messege</label>
-            <textarea name="" id="inputMessage" cols="45" rows="5"></textarea>
-            <input type="button" value="Submit" class="submit-contact" onclick="submitData()" />
-            </form>
-            
-
-
+        <div class="judul">
+            <h1>My Testimonials</h1>
         </div>
-        <script src="contact.js"></script>
-        <script src="nav.js"></script>
-    </body>
+        <div class="testimonials" id="testimonials">
+            <!-- <div class="testimonial">
+                <img src="img/dumbways.png" alt="">
+                <q>Quotes</q>
+                <h4>Author</h4>
+            </div> -->
+        </div>
+    <script src="nav.js"></script>
+    <script src="testimonial.js"></script>
+</body>
+
 </html>
