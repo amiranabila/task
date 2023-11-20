@@ -1,0 +1,33 @@
+[
+    {
+        "author": "Zakiyyah",
+        "content": "Keren sekalihh",
+        "image": "img/dumbways.png",
+        "rating": 5
+    },
+    {
+        "author": "Nabila",
+        "content": "Keren ",
+        "image": "img/dumbways.png",
+        "rating": 4
+    },
+    {
+        "author": "Amira",
+        "content": "biasa aja",
+        "image": "img/dumbways.png",
+        "rating": 3
+    },
+    {
+        "author": "Jihan",
+        "content": "Kurang memuaskan",
+        "image": "img/dumbways.png",
+        "rating": 2
+    },
+    {
+        "author": "Zayd",
+        "content": "Apa sih ini",
+        "image": "img/dumbways.png",
+        "rating": 1
+    }
+   
+]
